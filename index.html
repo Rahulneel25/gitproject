@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report a Disaster</title>
+</head>
+<body>
+    <h1>Disaster Reporting</h1>
+    <form id="disasterForm" action="http://localhost:5000/disasters" method="post">
+        <input type="text" name="type" placeholder="Disaster Type (Fire, Flood)" required>
+        <input type="text" name="location" placeholder="Location" required>
+        <input type="number" name="severity" placeholder="Severity (1-10)" required>
+        <button type="submit">Report Disaster</button>
+    </form>
+</body>
+</html>
